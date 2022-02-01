@@ -4,18 +4,24 @@ body {
 
 header {
     color: white;
+    text-align: center;
 }
 
 h2 {
     max-width: 700px;
+    margin: 0 auto;
 }
 
 img {
+    display: block;
     width: 200px;
+    margin: 0 auto;
 }
 
 ol {
     font-weight: bold;
+    max-width: 360px;
+    margin: 0 auto;
 }
 
 quote {
@@ -23,4 +29,13 @@ quote {
     display: block;
     font-size: 35pt;
     max-width: 300px;
+    margin: 0 auto;
 }
+
+footer {
+    text-align: center;
+}
+
+/* #Education {
+    onmouseover
+} */
