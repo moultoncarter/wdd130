@@ -1,0 +1,79 @@
+#salmon_section {
+    padding-top: 50px;
+    text-align: left;
+    margin: auto 5%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#salmon_section img {
+    float: left;
+    vertical-align: middle;
+    grid-column: 1/2;
+    border-radius: 5px;
+    max-width: 600px;
+    height: 400px;
+}
+
+#salmon_section p {
+    padding: 5px 10px;
+    background-color: #0BDA51;
+    /*color: #006400;*/
+    border-radius: 0 20px 20px 0;
+    font-size: 1.35vw;
+}
+
+#desolation_section {
+    padding: 100px 0;
+    text-align: left;
+    margin: auto 5%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#desolation_section img {
+    float: right;
+    vertical-align: middle;
+    grid-column: 1/2;
+    border-radius: 5px;
+    max-width: 600px;
+    height: 400px;
+}
+
+#desolation_section p {
+    padding: 5px 10px;
+    background-color: #0BDA51;
+    /*color: #006400;*/
+    border-radius: 0 20px 20px 0;
+    font-size: 1.55vw;
+}
+
+#canyon_section {
+    text-align: left;
+    margin: auto 5%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#canyon_section img {
+    float: left;
+    vertical-align: middle;
+    grid-column: 1/2;
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+}
+
+#canyon_section p {
+    padding: 5px 10px;
+    background-color: #0BDA51;
+    /*color: #006400;*/
+    border-radius: 0 20px 20px 0;
+    font-size: 1.6vw;
+}
+
+.above_img {
+    text-align: center;
+    justify-items: center;
+    grid-column: 1/2;
+}
