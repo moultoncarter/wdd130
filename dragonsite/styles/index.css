@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* primary-color: #907F9F
+secondary-color: #931621
+accent1-color: #0F1A20
+accent2-color: #E9ECF5 */
+/* html selectors */
+body {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #E9ECF5;
+    background-color: #0F1A20;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: auto;
+    background-color: #907F9F;
+    border: solid #931621;
+    border-width: 5px 0 5px 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #907F9F;
+    border: solid #931621;
+    border-width: 5px 0 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* class selectors */
+.main-text {
+    text-align: center;
+}
+
+/* id selectors */
+#logo-link {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#dragon-wildy {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+}
