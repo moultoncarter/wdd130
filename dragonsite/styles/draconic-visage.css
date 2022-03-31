@@ -1,0 +1,18 @@
+/* html selectors */
+section {
+    display: block;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+/* class selectors */
+
+
+/* id selectors */
+#image-grid {
+    display: grid;
+    grid-template-columns: 40%, 30%, 30%;
+}
