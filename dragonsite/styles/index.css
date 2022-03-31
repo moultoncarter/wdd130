@@ -26,6 +26,11 @@ header {
 
 header a {
     text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: #931621;
 }
 
 footer {
@@ -39,6 +44,11 @@ footer {
 
 footer a {
     text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #931621;
 }
 
 nav {
@@ -55,16 +65,53 @@ h1 {
 /* class selectors */
 .main-text {
     text-align: center;
+    margin: 5% 15%;
+}
+
+.home-grid-section {
+    grid-column: 1/2;
+}
+
+.home-grid-section a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-grid-section a:hover{
+    text-decoration: none;
+    color: #931621;
 }
 
 /* id selectors */
 #logo-link {
     max-width: 200px;
     max-height: 200px;
+    margin-left: 5%;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#draconic-visage-section {
+    grid-row: 2/3;
+}
+
+#draconic-deed-section {
+    grid-row: 3/4;
+}
+
+#enter-den-section {
+    grid-row: 4/5;
 }
 
 #dragon-wildy {
-    display: block;
-    margin: auto;
+    grid-column: 2/3;
+    grid-row: 1/6;
     max-width: 80%;
+    border-radius: 5%;
+    margin-bottom: 5%;
 }
