@@ -19,6 +19,10 @@ p {
     border-radius: 10%;
 }
 
+.visages img:hover {
+    border-color: #907F9F;
+}
+
 .image-grid {
     margin: 5%, 10%;
     display: grid;
@@ -42,3 +46,5 @@ p {
 #self-portrait-6909 {
     grid-row: 6/8;
 }
+
+/* TESTING SELECTORS */
