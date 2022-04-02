@@ -8,11 +8,37 @@ figure {
     text-align: center;
 }
 
-/* class selectors */
+p {
+    text-align: center;
+}
 
+/* class selectors */
+.visages img {
+    width: 100%;
+    border: solid 10px #931621;
+    border-radius: 10%;
+}
+
+.image-grid {
+    margin: 5%, 10%;
+    display: grid;
+    grid-template-columns: 40%, 40%;
+}
 
 /* id selectors */
-#image-grid {
-    display: grid;
-    grid-template-columns: 40%, 30%, 30%;
+#tug-of-war{
+    grid-column: 1/3;
+}
+
+#dragonkeep {
+    grid-column: 1/2;
+}
+
+#dragon-wilderness {
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+#self-portrait-6909 {
+    grid-row: 6/8;
 }
