@@ -2,15 +2,7 @@ body {
     display: block;
     text-align: center;
     margin: auto;
-    border: solid 10px #931621;
     text-decoration: none;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    background-color: white;
-    border: solid 10px #931621;
 }
 
 figcaption {
@@ -39,6 +31,10 @@ p {
     grid-column: 1/2;
     grid-row: 2/3;
     float: left;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 10px #931621;
 }
 
 #grid-404 {
@@ -47,11 +43,18 @@ p {
     margin: 0 5%;
 }
 
-#logo {
+#redirect-logo {
     background-color: #907F9F;
+    border: solid 10px #931621;
     border-radius: 5%;
 }
 
+#redirect-logo:hover {
+    background-color: #931621;
+    border: solid 10px #907F9F;
+}
+
 #explanation {
+    display: block;
     text-align: center;
 }

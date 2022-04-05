@@ -78,6 +78,12 @@ h1 {
     color: inherit;
 }
 
+.section-img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+}
+
 .home-grid-section a:hover{
     text-decoration: none;
     color: #931621;
