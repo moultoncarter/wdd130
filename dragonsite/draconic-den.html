@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dragon Den - Home</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/draconic-den.css">
     <link rel="icon" href="images/favicon.ico">
 </head>
+
 <body>
+    <script src="scripts/draconic-den.js"></script>
+
     <header>
         <a id="logo" href="index.html">
             <img src="images/Wyrmfriend.png" alt="Dragon Den Logo" id="logo-link">
@@ -22,7 +27,22 @@
     </header>
 
     <main>
-        <iframe src="https://discord.com/widget?id=960868796149694516&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <h1>Welcome Drake!</h1>
+        <div id="den-grid">
+            <img src="images/Wyrmfriend-Smile.png" alt="Smiling Dragon" id="smile-dragon">
+            <p>
+                If you're interested in seeing any more draconic content consider using the button below to check
+                out the platforms I am active on. Any and all support would be appreciated.
+            </p>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Join the Den!</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://discord.gg/" target=_blank>Join the Discord!</a>
+                    <a href="https://www.twitch.tv/" target=_blank>Follow the Dragon on Twitch!</a>
+                    <a href="https://www.youtube.com/" target=_blank>Subscribe to the Dragon's Youtube!</a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -31,4 +51,5 @@
         <h3><a href="contributors.html">Contributors</a></h3>
     </footer>
 </body>
+
 </html>
